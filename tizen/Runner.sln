@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Runner", "Runner.csproj", "{8BA10F57-5954-4C82-AB74-E15A7F86B99E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tizen.Flutter.Embedding", "..\..\..\flutter-tizen\embedding\csharp\Tizen.Flutter.Embedding\Tizen.Flutter.Embedding.csproj", "{4059BA1B-4FFD-487A-98EB-81B587F47742}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BA10F57-5954-4C82-AB74-E15A7F86B99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA10F57-5954-4C82-AB74-E15A7F86B99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA10F57-5954-4C82-AB74-E15A7F86B99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA10F57-5954-4C82-AB74-E15A7F86B99E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4059BA1B-4FFD-487A-98EB-81B587F47742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4059BA1B-4FFD-487A-98EB-81B587F47742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4059BA1B-4FFD-487A-98EB-81B587F47742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4059BA1B-4FFD-487A-98EB-81B587F47742}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4830380B-614C-4989-BD5C-9489006D1F2B}
+	EndGlobalSection
+EndGlobal

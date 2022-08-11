@@ -6,14 +6,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="$(FlutterEmbeddingPath)" />
+    <ProjectReference Include="..\..\..\flutter-tizen\embedding\csharp\Tizen.Flutter.Embedding\Tizen.Flutter.Embedding.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <FlutterEphemeral Include="flutter\ephemeral\**\*" />
+    <FlutterEphemeral Include="flutter/ephemeral/**/*" />
     <TizenTpkUserIncludeFiles Include="@(FlutterEphemeral)">
       <TizenTpkSubDir>%(RecursiveDir)</TizenTpkSubDir>
     </TizenTpkUserIncludeFiles>
   </ItemGroup>
+
+  <!--<ItemGroup>
+    <TizenTpkUserIncludeFiles Include="../../native_plugin/example/build/tizen/module/**/*">
+      <TizenTpkSubDir>%(RecursiveDir)</TizenTpkSubDir>
+    </TizenTpkUserIncludeFiles>
+    <TizenTpkUserExcludeFiles Include="../../native_plugin/example/build/tizen/module/inc/**/*" />
+    <TizenTpkUserExcludeFiles Include="../../native_plugin/example/build/tizen/module/lib/libembedding_cpp.a" />
+  </ItemGroup>-->
 
 </Project>
