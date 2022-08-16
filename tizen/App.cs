@@ -66,7 +66,7 @@ namespace Runner
             flutterView = new ElmFlutterView(box);
             if (flutterView.RunEngine())
             {
-                GeneratedPluginRegistrant.RegisterPlugins(flutterView);
+                GeneratedPluginRegistrant.RegisterPlugins(flutterView.Engine);
 
                 var evasObject = flutterView.EvasObject;
                 box.PackEnd(evasObject);
